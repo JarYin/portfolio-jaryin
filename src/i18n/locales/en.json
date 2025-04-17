@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "resume": "Resume"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "role": "Full Stack Developer",
+    "description": "I’m a student and a web developer.\n I have 1 year of real-world experience in web development.\n I enjoy studying efficient coding techniques and applying AI to web projects.\n Always curious to explore and build new things.",
+    "name": "Panachon Kumnuengpanadon"
+  },
+  "about": {
+    "title": "About Me",
+    "skills": "Skills",
+    "languages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "description": "Hello, my name is Panachon Kumnuengpanadon. I am a student at Chiang Mai Technical College, majoring in Software Development. I am interested in web application development, particularly using the Next.js and Angular frameworks. I have been working as an outsource for SoftInter for one year, where I primarily work on developing web applications with Next.js due to its flexible structure and ability to facilitate rapid development."
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "description-lantong": "Lan Thong Chiang Mai Limited Partnership operates an online sidecar (motorcycle attachment) sales website. It also features a backend management system and a customer shop review system.",
+    "description-ai-resume": "AI Resume, using user data to create a resume suitable for the desired job position."
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download PDF",
+    "ResumeURL": "/MyResumeEN.pdf",
+    "ResumeIMG": "/MyResumeEN.png"
+  }
+}
