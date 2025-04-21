@@ -27,7 +27,7 @@ export default function About() {
         "Next.js",
         "Node.js",
         "Angular",
-        "Bootstrap",
+        "ASP.NET",
         "Tailwind CSS",
       ],
       icon: <Layout className="w-6 h-6" />,
