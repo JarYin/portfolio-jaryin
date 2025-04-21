@@ -22,6 +22,14 @@ export default function Projects() {
       github: 'https://github.com/JarYin/nextjs15-ai-resume',
       live: 'https://nextjs15-ai-resume.vercel.app/',
     },
+    {
+      title: 'Intelligence Weather Station',
+      description: t('projects.description-weather-station'),
+      image: '/Intelligence Weather Station.png',
+      technologies: ['Nextjs', 'TypeScript','PostgreSQL','Flask','Prisma','Docker','socket.io','Randomforest Classifier'],
+      github: 'https://github.com/JarYin/weathers-project',
+      live: 'http://itdev.cmtc.ac.th:3001/',
+    },
   ];
 
   return (
