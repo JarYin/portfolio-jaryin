@@ -1,34 +1,70 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { ExternalLink, Github } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { ExternalLink, Github } from "lucide-react";
 
 export default function Projects() {
   const { t } = useTranslation();
 
   const projects = [
     {
-      title: 'lantong-website',
-      description: t('projects.description-lantong'),
-      image: 'lantong.png',
-      technologies: ['Nextjs', 'JavaScript', 'MongoDB'],
-      github: 'https://github.com/JarYin/lantong-website',
-      live: 'https://lantongshop.com/',
+      title: "lantong-website",
+      description: t("projects.description-lantong"),
+      image: "lantong.png",
+      technologies: ["Nextjs", "JavaScript", "MongoDB"],
+      github: "https://github.com/JarYin/lantong-website",
+      live: "https://lantongshop.com/",
     },
     {
-      title: 'AI Resume',
-      description: t('projects.description-ai-resume'),
-      image: '/AiResume.png',
-      technologies: ['Nextjs', 'TypeScript', 'DeepSeek' ,'PostgreSQL','Prisma','Stripe','Clerk','Shadcn'],
-      github: 'https://github.com/JarYin/nextjs15-ai-resume',
-      live: 'https://nextjs15-ai-resume.vercel.app/',
+      title: "AI Resume",
+      description: t("projects.description-ai-resume"),
+      image: "/AiResume.png",
+      technologies: [
+        "Nextjs",
+        "TypeScript",
+        "DeepSeek",
+        "PostgreSQL",
+        "Prisma",
+        "Stripe",
+        "Clerk",
+        "Shadcn",
+      ],
+      github: "https://github.com/JarYin/nextjs15-ai-resume",
+      live: "https://nextjs15-ai-resume.vercel.app/",
     },
     {
-      title: 'Intelligence Weather Station',
-      description: t('projects.description-weather-station'),
-      image: '/Intelligence Weather Station.png',
-      technologies: ['Nextjs', 'TypeScript','PostgreSQL','Flask','Prisma','Docker','socket.io','Randomforest Classifier'],
-      github: 'https://github.com/JarYin/weathers-project',
-      live: 'http://itdev.cmtc.ac.th:3001/',
+      title: "Intelligence Weather Station",
+      description: t("projects.description-weather-station"),
+      image: "/Intelligence Weather Station.png",
+      technologies: [
+        "Nextjs",
+        "TypeScript",
+        "PostgreSQL",
+        "Flask",
+        "Prisma",
+        "Docker",
+        "socket.io",
+        "Randomforest Classifier",
+      ],
+      github: "https://github.com/JarYin/weathers-project",
+      live: "http://itdev.cmtc.ac.th:3001/",
+    },
+    {
+      title: "E-commerce App-clone (in progress)",
+      description: t("projects.description-e-commerce"),
+      image: "/E-commerce.png",
+      technologies: [
+        "Nextjs",
+        "TypeScript",
+        "PostgreSQL",
+        "Supabases",
+        "Prisma",
+        "Honor",
+        "Shadcn",
+        "framer-motion",
+        "Stripe",
+      ],
+      github: "https://github.com/JarYin/e-commerces",
+      live: "https://e-commerces-ten.vercel.app/",
     },
   ];
 
@@ -40,7 +76,7 @@ export default function Projects() {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-4xl font-bold text-gray-900 mb-12">
-          {t('projects.title')}
+          {t("projects.title")}
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
