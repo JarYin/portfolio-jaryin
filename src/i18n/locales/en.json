@@ -24,7 +24,8 @@
     "description-lantong": "Lan Thong Chiang Mai Limited Partnership operates an online sidecar (motorcycle attachment) sales website. It also features a backend management system and a customer shop review system.",
     "description-ai-resume": "AI Resume, using user data to create a resume suitable for the desired job position.",
     "description-weather-station": "Weather checking website for Chiang Mai Technical College using the Meteorological Department's dataset and a Random Forest Model to predict tomorrow's weather conditions.",
-    "description-e-commerce": "E-commerce website developed using Next.js It includes a backend management system and a shopping cart system."
+    "description-e-commerce": "E-commerce website developed using Next.js It includes a backend management system and a shopping cart system.",
+    "description-weather-hub": "Weather Hub is a web application that provides real-time weather updates and forecasts for various locations using data from reliable Open-Meteo."
   },
   "resume": {
     "title": "Resume",

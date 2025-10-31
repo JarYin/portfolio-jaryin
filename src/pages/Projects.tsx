@@ -66,6 +66,26 @@ export default function Projects() {
       github: "https://github.com/JarYin/e-commerces",
       live: "https://e-commerces-ten.vercel.app/",
     },
+    {
+      title: "Weather Hub",
+      description: t("projects.description-weather-hub"),
+      image: "/WeatherHub.png",
+      technologies: [
+        "Nextjs",
+        "TypeScript",
+        "PostgreSQL",
+        "Neon Serverless",
+        "Prisma",
+        "Express",
+        "Shadcn",
+        "Animation UI",
+        "Recharts",
+        "Open-Meteo API",
+
+      ],
+      github: "https://github.com/JarYin/WeatherHub",
+      live: "https://weatherhub-frontend-oth9.onrender.com/",
+    },
   ];
 
   return (
