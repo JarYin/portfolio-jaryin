@@ -16,7 +16,12 @@
     "skills": "Skills",
     "languages": "Programming Languages",
     "frameworks": "Frameworks & Libraries",
-    "description": "Hello, my name is Panachon Kumnuengpanadon. I am a student at Chiang Mai Technical College, majoring in Software Development. I am interested in web application development, particularly using the Next.js and Angular frameworks. I have been working as an outsource for SoftInter for one year, where I primarily work on developing web applications with Next.js due to its flexible structure and ability to facilitate rapid development."
+    "description": "Hello, my name is Panachon Kumnuengpanadon. I am a student at Chiang Mai Technical College, majoring in Software Development. I am interested in web application development, particularly using the Next.js and Angular frameworks. I have been working as an outsource for SoftInter for one year, where I primarily work on developing web applications with Next.js due to its flexible structure and ability to facilitate rapid development.",
+    "myWork": {
+      "title": "My Work",
+      "certificate-softinter": "SoftInter Professional Programmer Internship Certificate",
+      "certificate-vocational": "National Vocational Skills Competition in Network Technology"
+    }
   },
   "projects": {
     "title": "My Projects",
