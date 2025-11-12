@@ -84,7 +84,7 @@ export default function Projects() {
 
       ],
       github: "https://github.com/JarYin/WeatherHub",
-      live: "https://weatherhub-frontend-oth9.onrender.com/",
+      live: "https://frontend-production-efae.up.railway.app/",
     },
   ];
 
