@@ -12,6 +12,7 @@ export default function About() {
         "JavaScript",
         "TypeScript",
         "Python",
+        "C#",
         "SQL",
         "Node.js",
         "PostgreSQL",
@@ -31,7 +32,9 @@ export default function About() {
         "Express",
         "Vue.js",
         "ASP.NET",
+        "Flask",
         "Tailwind CSS",
+        "Docker",
       ],
       icon: <Layout className="w-6 h-6" />,
     },
@@ -87,18 +90,37 @@ export default function About() {
           {t("about.myWork.title")}
         </h2>
 
-        <div className="grid grid-cols-1 gap-8 ">
+        <div className="grid grid-cols-1 gap-8 mb-4">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-lg shadow-sm"
           >
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-2">
               <Layout className="w-6 h-6" />
-              <h3 className="text-xl font-semibold ml-2">SoftInter</h3>{" "}
+              <h3 className="text-xl font-semibold ml-2">{t("about.myWork.imazmaker-title")}</h3>
             </div>
-            <p className="text-gray-600">
+            <p className="text-gray-700 font-medium">{t("about.myWork.imazmaker-role")}</p>
+            <p className="text-gray-500 text-sm">{t("about.myWork.imazmaker-period")}</p>
+          </motion.div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-8 mb-4">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="bg-white p-6 rounded-lg shadow-sm"
+          >
+            <div className="flex items-center mb-2">
+              <Layout className="w-6 h-6" />
+              <h3 className="text-xl font-semibold ml-2">{t("about.myWork.softinter-title")}</h3>
+            </div>
+            <p className="text-gray-700 font-medium">{t("about.myWork.softinter-role")}</p>
+            <p className="text-gray-500 text-sm mb-3">{t("about.myWork.softinter-period")}</p>
+            <p className="text-gray-600">{t("about.myWork.softinter-desc")}</p>
+            <p className="text-gray-600 mt-3">
               {t("about.myWork.certificate-softinter")}
             </p>
             <div className="flex justify-center">
@@ -127,7 +149,7 @@ export default function About() {
             <div className="flex justify-center">
               <img
                 src="/Certificate-vocational-education.png"
-                alt="SoftInter Professional Programmer Internship Certificate"
+                alt="National Vocational Skills Competition in Network Technology"
                 width={500}
                 height={500}
                 className="mt-4 rounded-lg"
