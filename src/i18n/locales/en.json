@@ -6,9 +6,9 @@
     "resume": "Resume"
   },
   "home": {
-    "greeting": "Hi, I'm",
-    "role": "Full Stack Developer",
-    "description": "I’m a student and a web developer.\n I have 1 year of real-world experience in web development.\n I enjoy studying efficient coding techniques and applying AI to web projects.\n Always curious to explore and build new things.",
+    "greeting": "Hi, I’m",
+    "role": "Fullstack Developer",
+    "description": "I’m a software development student with hands-on experience building web applications and working on real-world projects as an outsource developer.\n I focus on building maintainable and scalable systems, system design, and writing technical documentation.\n Always curious to break complex problems into structured, expandable solutions.",
     "name": "Panachon Kumnuengpanadon"
   },
   "about": {
@@ -16,11 +16,18 @@
     "skills": "Skills",
     "languages": "Programming Languages",
     "frameworks": "Frameworks & Libraries",
-    "description": "Hello, my name is Panachon Kumnuengpanadon. I am a student at Chiang Mai Technical College, majoring in Software Development. I am interested in web application development, particularly using the Next.js and Angular frameworks. I have been working as an outsource for SoftInter for one year, where I primarily work on developing web applications with Next.js due to its flexible structure and ability to facilitate rapid development.",
+    "description": "I’m a software development student with hands-on experience building web applications and working on real-world projects as an outsource developer. I have experience working with modern web technologies, focusing on building maintainable and scalable systems. My work includes collaborating within development teams, implementing features, and solving practical issues in production environments. Recently, I’ve been focusing on system design, system analysis, and writing technical documentation (TARB, PRD, SPEC). I enjoy breaking complex problems into small parts, identifying strengths and weaknesses, and creating structured solutions that are easy to maintain and expand.",
     "myWork": {
       "title": "My Work",
+      "imazmaker-title": "IMAZMAKER COMPANY LIMITED",
+      "imazmaker-role": "Full Stack Developer · Internship",
+      "imazmaker-period": "May 2026 – Present · Chiang Mai, Thailand (On-site)",
+      "softinter-title": "Soft Square Group Thailand",
+      "softinter-role": "Full Stack Developer · Contract",
+      "softinter-period": "May 2024 – Apr 2025 · 1 yr · Chiang Mai, Thailand (Hybrid)",
+      "softinter-desc": "Developed an ERP web application using Angular and ASP.NET. Designed and generated reports using Jaspersoft. Managed and monitored databases using DBeaver. Collaborated with the development team to design and enhance the system in alignment with business requirements.",
       "certificate-softinter": "SoftInter Professional Programmer Internship Certificate",
-      "certificate-vocational": "National Vocational Skills Competition in Network Technology"
+      "certificate-vocational": "National Vocational Skills Competition in Network Technology (Higher Vocational Level)"
     }
   },
   "projects": {
